@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGLearning suite]">
-  <test thread-count="5" name="Title verification(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TestCase2">
+      <class name="testCases.SkipTest">
         <methods>
-          <include name="doVerification"/>
+          <include name="skipTest"/>
         </methods>
-      </class> <!-- testCases.TestCase2 -->
+      </class> <!-- testCases.SkipTest -->
     </classes>
-  </test> <!-- Title verification(failed) -->
-  <test thread-count="5" name="Dependency test(failed)">
-    <classes>
-      <class name="testCases.TestCase3">
-        <methods>
-          <include name="doRegistration"/>
-          <include name="doLogin"/>
-        </methods>
-      </class> <!-- testCases.TestCase3 -->
-    </classes>
-  </test> <!-- Dependency test(failed) -->
-</suite> <!-- Failed suite [TestNGLearning suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

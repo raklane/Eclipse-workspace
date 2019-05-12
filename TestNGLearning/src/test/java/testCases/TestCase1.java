@@ -18,12 +18,12 @@ public class TestCase1 {
 		System.out.println("Disconnecting from DB");
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1, groups="functional")
 	public void doRegistration() {
 		System.out.println("Executing registration");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2, groups="functional")
 	public void doLogin() {
 		System.out.println("Executing login");
 	}

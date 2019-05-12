@@ -7,7 +7,7 @@ import junit.framework.Assert;
 
 public class TestCase2 {
 	
-	@Test
+	@Test(groups= {"functional", "smoke"})
 	public void doVerification() {
 		
 		SoftAssert softAssert = new SoftAssert();
