@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12443" started-at="2019-05-28T22:27:17Z" finished-at="2019-05-28T22:27:30Z">
+    <groups>
+    </groups>
+    <test name="Test Browser 1" duration-ms="8255" started-at="2019-05-28T22:27:17Z" finished-at="2019-05-28T22:27:26Z">
+      <class name="org.rakesh.GridTest.GridTest">
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:org.rakesh.GridTest.GridTest@68c4039c]" name="googleTest" duration-ms="8235" started-at="2019-05-28T17:27:17Z" finished-at="2019-05-28T17:27:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+      </class> <!-- org.rakesh.GridTest.GridTest -->
+    </test> <!-- Test Browser 1 -->
+    <test name="Test Browser 2" duration-ms="4162" started-at="2019-05-28T22:27:26Z" finished-at="2019-05-28T22:27:30Z">
+      <class name="org.rakesh.GridTest.GridTest">
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:org.rakesh.GridTest.GridTest@77cd7a0]" name="googleTest" duration-ms="4161" started-at="2019-05-28T17:27:26Z" finished-at="2019-05-28T17:27:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+      </class> <!-- org.rakesh.GridTest.GridTest -->
+    </test> <!-- Test Browser 2 -->
+  </suite> <!-- Suite -->
+</testng-results>

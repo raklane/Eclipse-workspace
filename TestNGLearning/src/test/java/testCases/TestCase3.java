@@ -3,7 +3,7 @@ package testCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestCase3 {
+public class TestCase3 extends BaseTest{
 	
 	@Test(groups="smoke")
 	public void doRegistration() {

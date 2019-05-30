@@ -57,7 +57,7 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 09 13:09:30 CDT 2019</td>
+<td>Started on:</td><td>Tue May 21 12:55:52 CDT 2019</td>
 </tr>
 <tr><td>Total time:</td><td>0 seconds (10 ms)</td>
 </tr><tr>
@@ -75,11 +75,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TestCase3.doRegistration()'><b>doRegistration</b><br>Test class: testCases.TestCase3</td>
+<td title='testCases.TestCase3.doRegistration()'><b>doRegistration</b><br>Test class: testCases.TestCase3<br/>
+<a href="#Output-586084331" onClick='toggleBox("Output-586084331", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-586084331" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-586084331">
+<a href="C:\Rakesh\abc.jpg" target="_blank">screenshot</a><br/>
+<br><br/>
+<a href="C:\Rakesh\abc.jpg" target="_blank"><img height=50 width=50 src="C:\Rakesh\abc.jpg"></a><br/>
+</div>
+</td>
 <td><div><pre>java.lang.AssertionError: Registration failed
 	at testCases.TestCase3.doRegistration(TestCase3.java:11)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1908143486", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1908143486'><pre>java.lang.AssertionError: Registration failed
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace586084331", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace586084331'><pre>java.lang.AssertionError: Registration failed
 	at org.testng.Assert.fail(Assert.java:96)
 	at testCases.TestCase3.doRegistration(TestCase3.java:11)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -109,7 +118,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>testCases.TestCase3@29774679</td></tr>
+<td>testCases.TestCase3@3b084709</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -122,7 +131,7 @@ function toggleAllBoxes() {
 <td title='testCases.TestCase3.thirdTest()'><b>thirdTest</b><br>Test class: testCases.TestCase3</td>
 <td></td>
 <td>0</td>
-<td>testCases.TestCase3@29774679</td></tr>
+<td>testCases.TestCase3@3b084709</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -133,9 +142,9 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testCases.TestCase3.doLogin()'><b>doLogin</b><br>Test class: testCases.TestCase3</td>
-<td><div><pre>java.lang.Throwable: Method TestCase3.doLogin()[pri:0, instance:testCases.TestCase3@29774679] depends on not successfully finished methods
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace85777802", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace85777802'><pre>java.lang.Throwable: Method TestCase3.doLogin()[pri:0, instance:testCases.TestCase3@29774679] depends on not successfully finished methods
+<td><div><pre>java.lang.Throwable: Method TestCase3.doLogin()[pri:0, instance:testCases.TestCase3@3b084709] depends on not successfully finished methods
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace949057310", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace949057310'><pre>java.lang.Throwable: Method TestCase3.doLogin()[pri:0, instance:testCases.TestCase3@3b084709] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)

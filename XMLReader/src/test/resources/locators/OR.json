@@ -1,0 +1,24 @@
+{
+
+"locators":{
+	
+	"homepage":{
+		
+		"header":{
+			
+			"username":{
+				"xpath":"//[@id='Email']",
+				"css":"#Email",
+				"id":"Email"
+			},	
+				
+			"password":{
+				"xpath":"//[@id='Passwd']",
+				"css":"#Passwd",
+				"id":"Passwd"
+			}	
+		}	
+	}	
+}
+
+}

@@ -1,0 +1,23 @@
+<locators>
+	
+	<homepage>
+		
+		<header>
+			
+			<username>
+				<css>#Email</css>
+				<xpath>//[@id='Email']</xpath>
+				<id>Email</id>
+			</username>
+			
+			<password>
+				<css>#Passwd</css>
+				<xpath>//[@id='Passwd']</xpath>
+				<id>Passwd</id>
+			</password>
+		
+		</header>
+	
+	</homepage>
+
+</locators>

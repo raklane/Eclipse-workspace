@@ -5,7 +5,7 @@ import org.testng.asserts.SoftAssert;
 
 import junit.framework.Assert;
 
-public class TestCase2 {
+public class TestCase2 extends BaseTest{
 	
 	@Test(groups= {"functional", "smoke"})
 	public void doVerification() {

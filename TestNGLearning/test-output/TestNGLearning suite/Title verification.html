@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 09 13:09:30 CDT 2019</td>
+<td>Started on:</td><td>Tue May 21 12:55:52 CDT 2019</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (15 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (10 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,14 +75,23 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TestCase2.doVerification()'><b>doVerification</b><br>Test class: testCases.TestCase2</td>
+<td title='testCases.TestCase2.doVerification()'><b>doVerification</b><br>Test class: testCases.TestCase2<br/>
+<a href="#Output-209833425" onClick='toggleBox("Output-209833425", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-209833425" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-209833425">
+<a href="C:\Rakesh\abc.jpg" target="_blank">screenshot</a><br/>
+<br><br/>
+<a href="C:\Rakesh\abc.jpg" target="_blank"><img height=50 width=50 src="C:\Rakesh\abc.jpg"></a><br/>
+</div>
+</td>
 <td><div><pre>java.lang.AssertionError: The following asserts failed:
 	expected [false] but found [true],
 	expected [true] but found [false],
 	expected [false] but found [true]
 	at testCases.TestCase2.doVerification(TestCase2.java:24)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace473581465", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace473581465'><pre>java.lang.AssertionError: The following asserts failed:
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace209833425", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace209833425'><pre>java.lang.AssertionError: The following asserts failed:
 	expected [false] but found [true],
 	expected [true] but found [false],
 	expected [false] but found [true]
@@ -115,7 +124,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>testCases.TestCase2@46d56d67</td></tr>
+<td>testCases.TestCase2@49fc609f</td></tr>
 </table><p>
 </body>
 </html>

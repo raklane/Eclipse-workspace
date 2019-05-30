@@ -3,7 +3,7 @@ package testCases;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
-public class SkipTest {
+public class SkipTest extends BaseTest{
 	
 	@Test
 	public void skipTest() {

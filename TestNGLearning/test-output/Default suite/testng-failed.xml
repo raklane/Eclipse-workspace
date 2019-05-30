@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.SkipTest">
+      <class name="parallelTest.InvocationTest">
         <methods>
-          <include name="skipTest"/>
+          <include name="browserTest"/>
         </methods>
-      </class> <!-- testCases.SkipTest -->
+      </class> <!-- parallelTest.InvocationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

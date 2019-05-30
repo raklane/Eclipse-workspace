@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import junit.framework.Assert;
 
-public class TestFailure {
+public class TestFailure extends BaseTest{
 	
 	@Test
 	public void doLogin() {
