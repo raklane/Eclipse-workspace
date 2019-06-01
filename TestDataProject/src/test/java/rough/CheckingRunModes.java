@@ -1,7 +1,7 @@
 package rough;
 
 import com.rakesh.utilities.ExcelReader;
-import com.rakesh.utilities.TestUtil;
+import com.rakesh.utilities.DataUtil;
 
 public class CheckingRunModes {
 
@@ -9,11 +9,10 @@ public class CheckingRunModes {
 		
 		//Checking run mode for the suite
 		
-		ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "\\src\\test\\resources\\testdata\\suite.xlsx");
 		
 		String suiteName = "CustomerSuite";
 		
-		boolean suiteRunMode = TestUtil.isSuiteRunnable(suiteName, excel);
+		boolean suiteRunMode = DataUtil.isSuiteRunnable(suiteName);
 		
 		System.out.println(suiteRunMode);
 		
@@ -22,7 +21,7 @@ public class CheckingRunModes {
 		
 		String testCaseName = "AddCustomerTest";
 		
-		boolean testRunMode = TestUtil.isTestRunnable(testCaseName, 
+		boolean testRunMode = DataUtil.isTestRunnable(testCaseName, 
 				new ExcelReader(System.getProperty("user.dir") + "\\src\\test\\resources\\testdata\\BankManagerSuite.xlsx"));
 		
 		System.out.println(testRunMode);

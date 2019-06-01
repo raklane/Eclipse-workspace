@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BankManagerSuite (0)]">
+  <test thread-count="5" name="Open Account Test(failed)">
+    <classes>
+      <class name="com.rakesh.suite.customer.testcases.OpenAccountTest">
+        <methods>
+          <include name="openAccountTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.rakesh.suite.customer.testcases.OpenAccountTest -->
+    </classes>
+  </test> <!-- Open Account Test(failed) -->
+  <test thread-count="5" name="Add Customer Test(failed)">
+    <classes>
+      <class name="com.rakesh.suite.customer.testcases.AddCustomerTest">
+        <methods>
+          <include name="addCustomerTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.rakesh.suite.customer.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- Add Customer Test(failed) -->
+</suite> <!-- Failed suite [BankManagerSuite (0)] -->

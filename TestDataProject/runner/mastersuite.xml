@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mastersuite">
+	<suite-files>
+		
+		<suite-file path="./bankmanager.xml"></suite-file>
+		<suite-file path="./customer.xml"></suite-file>
+	
+	</suite-files>
+</suite> <!-- Suite -->
