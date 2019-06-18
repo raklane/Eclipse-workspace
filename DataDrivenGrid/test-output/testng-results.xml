@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BankManagerSuite" duration-ms="13145" started-at="2019-06-12T18:12:40Z" finished-at="2019-06-12T18:12:54Z">
+    <groups>
+    </groups>
+    <test name="Add Customer Test" duration-ms="13092" started-at="2019-06-12T18:12:40Z" finished-at="2019-06-12T18:12:54Z">
+      <class name="com.rakesh.suite.bankmanager.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.rakesh.suite.bankmanager.testcases.AddCustomerTest@5c18298f]" name="addCustomerTest" duration-ms="12446" started-at="2019-06-12T18:12:41Z" data-provider="BankManagerDP" finished-at="2019-06-12T18:12:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, postcode=34324.0, Runmode=Y, lastname=Ahuja, firstname=Manish}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.rakesh.suite.bankmanager.testcases.AddCustomerTest@5c18298f]" name="addCustomerTest" duration-ms="11404" started-at="2019-06-12T18:12:41Z" data-provider="BankManagerDP" finished-at="2019-06-12T18:12:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, postcode=34322.0, Runmode=Y, lastname=Kumar, firstname=Rakesh}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.rakesh.suite.bankmanager.testcases.AddCustomerTest@5c18298f]" name="addCustomerTest" duration-ms="12470" started-at="2019-06-12T18:12:41Z" data-provider="BankManagerDP" finished-at="2019-06-12T18:12:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, postcode=34343.0, Runmode=Y, lastname=Kumar, firstname=Ram}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rakesh.suite.bankmanager.testcases.AddCustomerTest@5c18298f]" name="tearDown" is-config="true" duration-ms="218" started-at="2019-06-12T18:12:52Z" finished-at="2019-06-12T18:12:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rakesh.suite.bankmanager.testcases.AddCustomerTest@5c18298f]" name="tearDown" is-config="true" duration-ms="199" started-at="2019-06-12T18:12:53Z" finished-at="2019-06-12T18:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rakesh.suite.bankmanager.testcases.AddCustomerTest@5c18298f]" name="tearDown" is-config="true" duration-ms="169" started-at="2019-06-12T18:12:53Z" finished-at="2019-06-12T18:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rakesh.suite.bankmanager.testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+    <test name="Open Account Test" duration-ms="13145" started-at="2019-06-12T18:12:40Z" finished-at="2019-06-12T18:12:54Z">
+      <class name="com.rakesh.suite.bankmanager.testcases.OpenAccountTest">
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.rakesh.suite.bankmanager.testcases.OpenAccountTest@2f8f5f62]" name="openAccountTest" duration-ms="11093" started-at="2019-06-12T18:12:41Z" data-provider="BankManagerDP" finished-at="2019-06-12T18:12:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Rupee, browser=chrome, Runmode=Y, customer=Harry Potter}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.rakesh.suite.bankmanager.testcases.OpenAccountTest@2f8f5f62]" name="openAccountTest" duration-ms="12585" started-at="2019-06-12T18:12:41Z" data-provider="BankManagerDP" finished-at="2019-06-12T18:12:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Dollar, browser=firefox, Runmode=Y, customer=Ron Weasly}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.rakesh.suite.bankmanager.testcases.OpenAccountTest@2f8f5f62]" name="openAccountTest" duration-ms="10824" started-at="2019-06-12T18:12:41Z" data-provider="BankManagerDP" finished-at="2019-06-12T18:12:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Pound, browser=chrome, Runmode=Y, customer=Hermoine Granger}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rakesh.suite.bankmanager.testcases.OpenAccountTest@2f8f5f62]" name="tearDown" is-config="true" duration-ms="869" started-at="2019-06-12T18:12:52Z" finished-at="2019-06-12T18:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rakesh.suite.bankmanager.testcases.OpenAccountTest@2f8f5f62]" name="tearDown" is-config="true" duration-ms="240" started-at="2019-06-12T18:12:52Z" finished-at="2019-06-12T18:12:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rakesh.suite.bankmanager.testcases.OpenAccountTest@2f8f5f62]" name="tearDown" is-config="true" duration-ms="115" started-at="2019-06-12T18:12:53Z" finished-at="2019-06-12T18:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rakesh.suite.bankmanager.testcases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
+  </suite> <!-- BankManagerSuite -->
+</testng-results>
