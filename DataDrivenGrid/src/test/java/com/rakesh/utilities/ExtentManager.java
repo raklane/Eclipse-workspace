@@ -16,7 +16,7 @@ public class ExtentManager {
 			
 			Date d = new Date();
 			String fileName = d.toString().replaceAll(":", "_").replaceAll(" ", "_") + ".html";
-			extent = new ExtentReports(System.getProperty("user.dir") + "\\reports\\" + fileName, true, DisplayOrder.OLDEST_FIRST);
+			extent = new ExtentReports(System.getProperty("user.dir") + "\\target\\surefire-reports\\html\\" + fileName, true, DisplayOrder.OLDEST_FIRST);
 			extent.loadConfig(new File(System.getProperty("user.dir") + "\\src\\test\\resources\\extentconfig\\ReportsConfig.xml"));
 		}
 		return extent;
