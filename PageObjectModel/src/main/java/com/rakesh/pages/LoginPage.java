@@ -8,13 +8,12 @@ import com.rakesh.base.Page;
 public class LoginPage extends Page {
 	
 	
-	public void doLogin(String username, String password) {
+	public ZohoAppPage doLogin(String username, String password) {
 		
-		driver.findElement(By.cssSelector("#lid")).sendKeys(username);
-		driver.findElement(By.cssSelector("#pwd")).sendKeys(password);
-		
-		driver.findElement(By.cssSelector("#signin_submit")).click();
-		
+		type("username_ID", username);
+		type("password_ID", password);
+		click("loginButton_ID");
+		return new ZohoAppPage();
 	}
 
 }

@@ -16,8 +16,9 @@ public class HomePage extends Page {
 		driver.findElement(By.xpath("//a[@class='zh-support']")).click();	
 	}
 	
-	public void goToLogin() {
-		driver.findElement(By.xpath("//a[@class='zh-login']")).click();
+	public LoginPage goToLogin() {
+		click("loginLink_CSS");
+		return new LoginPage();
 	}
 	
 	public void goToSignUp() {
