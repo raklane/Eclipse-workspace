@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object Model with Page factories]">
+  <listeners>
+    <listener class-name="com.rakesh.errorcollectors.TestListenerAdapter"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Flight search test(failed)">
+    <classes>
+      <class name="com.rakesh.testcases.FlightSearch">
+        <methods>
+          <include name="searchFlight"/>
+        </methods>
+      </class> <!-- com.rakesh.testcases.FlightSearch -->
+    </classes>
+  </test> <!-- Flight search test(failed) -->
+</suite> <!-- Failed suite [Page Object Model with Page factories] -->

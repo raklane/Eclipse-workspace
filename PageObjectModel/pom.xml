@@ -121,7 +121,7 @@
 				<configuration>
 					<testFailureIgnore>false</testFailureIgnore>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/runner/testng.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/com/rakesh/runner/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
@@ -134,7 +134,7 @@
 
 		<testResources>
 			<testResource>
-				<directory>src/test/resources/properties</directory>
+				<directory>src/test/resources/com/rakesh/properties</directory>
 				<includes>
 					<include>log4j.properties</include>
 				</includes>

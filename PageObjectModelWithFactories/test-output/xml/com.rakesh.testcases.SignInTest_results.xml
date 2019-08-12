@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sign in test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="75.949">
+  <properties />
+  
+  
+            <testcase name="signInTest" time="75.949" classname="com.rakesh.testcases.SignInTest" />
+      
+</testsuite>

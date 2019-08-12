@@ -11,6 +11,8 @@ public class LoginTest extends BaseTest {
 	@Test
 	public void loginTest() {
 		
+		//Egit change
+		//Login test
 		HomePage homePage = new HomePage();
 		LoginPage loginPage = homePage.goToLogin();
 		

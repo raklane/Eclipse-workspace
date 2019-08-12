@@ -86,7 +86,7 @@ public class Page {
 			
 			if(config.getProperty("browser").equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\com\\rakesh\\executables\\chromedriver.exe");
-				driver = new ChromeDriver();Map<String, Object> prefs = new HashMap<String, Object>();
+				Map<String, Object> prefs = new HashMap<String, Object>();
 				prefs.put("profile.default_content_setting_values.notifications", 2);
 				prefs.put("credentials_enable_service", false);
 				prefs.put("profile.password_manager_enabled", false);
@@ -125,7 +125,7 @@ public class Page {
 		}else if(locator.endsWith("_ID")) {
 			driver.findElement(By.id(OR.getProperty(locator))).click();
 		}
-		
+		log.debug("Clicking on element: " + locator);
 		test.log(LogStatus.INFO, "Clicking on: " + locator);
 	}
 	
@@ -139,7 +139,7 @@ public class Page {
 		}else if(locator.endsWith("_ID")) {
 			driver.findElement(By.id(OR.getProperty(locator))).sendKeys(value);
 		}
-		
+		log.debug("Typing on element: " + locator + ", Entered value: " + value);
 		test.log(LogStatus.INFO, "Entering in: " + locator + ", Entered value: " + value);
 	}
 	
@@ -169,7 +169,7 @@ public class Page {
 		}else if(locator.endsWith("_ID")) {
 			dropdown = new Select(driver.findElement(By.id(OR.getProperty(locator))));
 		}
-		
+		log.debug("Selecting from dropdown: " + locator + ", Selected value: " + value);
 		dropdown.selectByVisibleText(value);
 		test.log(LogStatus.INFO, "Selecting from dropdown: " + locator + ", Selected value: " + value);
 		

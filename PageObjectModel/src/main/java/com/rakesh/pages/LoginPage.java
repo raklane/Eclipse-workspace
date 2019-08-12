@@ -10,9 +10,9 @@ public class LoginPage extends Page {
 	
 	public ZohoAppPage doLogin(String username, String password) {
 		
-		type("username_ID", username);
-		type("password_ID", password);
-		click("loginButton_ID");
+		type("username_CSS", username);
+		type("password_CSS", password);
+		click("loginButton_CSS");
 		return new ZohoAppPage();
 	}
 
